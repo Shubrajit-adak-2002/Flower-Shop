@@ -4,97 +4,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Github project</title>
+    <title>Flower Shop</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <!-- Header part -->
     <header>
-        <h1>
-            Let's make <br>beautiful flowers a <br>part of your life.
-        </h1>
-        <p id="para1">It is a long established fact that a reader will be distracted by the readable <br> content of a
-            page when
-            looking at its layout. The point of using Lorem Ipsum is<br> that it has a more-or-less normal distribution
-            of letters.</p>
-        <button class="btn">Shop Now</button>
-        <img src="image/pngwing 10.png" alt="Flower">
-    </header>
-
-    <div>
-        <h5 class="main">Our Feautured Flowers</h5>
-        <p id="para2">It is a long established fact that a reader will be distracted by the readable <br>content of a
-            page when looking
-            at its layout</p>
-
-        <div id="boxes">
-
-            <div class="box1">
-                <img src="image/pngwing 6.png" alt="pink flower tree" class="pink">
-            </div>
-            <div class="box2">
-                <img src="image/pngwing 5.png" alt="Pink guldasta" class="guldasta">
-            </div>
-            <div class="box3">
-                <img src="image/pngwing 7.png" alt="yellow flower" class="yellow">
-                <div class="sublines">
-                    <p id="para3">Pink Flower Tree</p>
-                    <p id="para4">Pink Flower Tree</p>
-                    <p id="para5">Pink Flower Tree</p>
+        <section>
+            <div class="head">
+                <!-- Caption -->
+                <div>
+                    <h1 class="head-caption">Let's make beautiful flowers a part of your life.</h1>
+                    <!-- Sub caption-->
+                    <p class="since">It is a long established fact that a reader will be distracted by the readable
+                        content of a page
+                        when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                        distribution of letters.</p>
+                    <button id="shop-now">Shop Now</button>
                 </div>
-
-
+                <!-- Red rose image -->
+                <div id="red-rose-container">
+                    <img class="red-rose" src="image/pngwing 10.png" alt="red-rose">
+                </div>
             </div>
-
+        </section>
+    </header>
+    <!-- Body -->
+    <main>
+        <!-- Second caption -->
+        <section class="features">
+            <h1 id="f-caption">Our Featured Flowers</h1>
+            <p id="f-sub">It is a long established fact that a reader will be distracted by the readable content of a
+                page when looking at its layout.</p>
+        </section>
+        <!-- Flower varieties -->
+        <section>
+            <div class="d-container">
+                <div class="d-1"><img id="f1" src="image/pngwing 6.png" alt="">
+                    <p class="subline-1"><u>Pink Flower Tree</u></p>
+                </div>
+                <div class="d-2"><img id="f2" src="image/pngwing 5.png" alt="">
+                    <p class="subline-2"><u>Pink Flower Tree</u></p>
+                </div>
+                <div class="d-3"><img id="f3" src="image/pngwing 7.png" alt="">
+                    <p class="subline-3"><u>Pink Flower Tree</u></p>
+                </div>
+            </div>
+        </section>
+        <!-- Support -->
+        <section>
+            <div class="support">
+                <div><img src="image/Group 57.png" alt=""></div>
+                <div><img src="image/Group 58.png" alt=""></div>
+                <div><img src="image/Group 59.png" alt=""></div>
+            </div>
+            <div id="support-sublines">
+                <p class="s-sub">Same Day Delivery. Click & Collect.</p>
+                <p class="s-sub">Fresh Flowers. Local Growers.</p>
+                <p class="s-sub">24/7 Free Support.</p>
+            </div>
+        </section>
+        <!-- Hot Deal -->
+        <section>
+            <div class="hot-sale">
+                <div>
+                    <h1 class="deal">Hot Deal ! Sale Up To 25% <span>Off</span></h1>
+                    <p class="d-sub">It is a long established fact that a reader will be distracted by the readable
+                        content of a page when looking at its layout.</p>
+                </div>
+                <div><img src="image/pngwing 8.png" alt="flower"></div>
+            </div>
+            <button id="sign-up">Sign Up</button>
+        </section>
+        <!-- Instagram flowers -->
+        <section>
+            <!-- Instagram caption and subline -->
+            <div>
+                <h1 id="insta">Instagram</h1>
+                <p id="insta-sub">It is a long established fact that a reader will be distracted by the readable content
+                    of a page when looking at its layout.</p>
+            </div>
+            <div class="insta-flowers">
+                <div><img class="box-flowers" src="image/Rectangle 4.png" alt="images of flowers on instagram handle">
+                </div>
+                <div><img class="box-flowers" src="image/Rectangle 5.png" alt="images of flowers on instagram handle">
+                </div>
+                <div><img class="box-flowers" src="image/Rectangle 6.png" alt="images of flowers on instagram handle">
+                </div>
+                <div><img class="box-flowers" src="image/Flower 01.png" alt="images of flowers on instagram handle">
+                </div>
+            </div>
+        </section>
+        <section>
+            <div>
+                <div id="last-caption">
+                    <h1>Get The Latest Deals</h1>
+                    <p>$30 coupon for first shopping</p>
+                </div>
+                <img id="input-bg" src="image/Rectangle 9.png" alt="input-feild-bg">
+                <input id="input" placeholder="Enter your email here..." type="text">
+                <button id="btn">Subscribe</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div id="footer-caption">
+            <h1 id="fs">Flower<span>Shop</span></h1>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when
+                looking at its layout.</p>
         </div>
-    </div>
-    <div class="contactus">
-        <img src="image/Group 57.png" alt="Delivery" class="delivery">
-        <p id="para6">Same Day Delivery & Collect. Click & Collect</p>
-
-        <img src="image/Group 58.png" alt="GRowers" class="growers">
-        <p id="para7">Fresh Flowers. Loocal Growers</p>
-
-        <img src="image/Group 59.png" alt="Support" class="support">
-        <p id="para8">24/7 Free Support</p>
-    </div>
-
-    <div class="deal">
-        <p id="para9"><b>Hot deal ! Sale Upto 25% <span>Off</span></b></p>
-        <p id="para10">It is a long established fact that a reader will be distracted by the readable <br> content of a
-            page when looking at its layout</p>
-            <button class="btn2"><b>Sign Up</b></button>
-            <img src="image/pngwing 8.png" alt="" class="phool">
-    </div>
-
-    <div class="instagram">
-        <h4 class="social"><b>Instagram</b></h4>
-        <p id="para11">It is a long established fact that a reader will be distracted by the readable <br> content of a
-            page when looking at its layout</p></p>
-            <div class="flowerimages">
-                <div class="box4"><img src="image/Flower 01.png" alt="" class="pinky"></div>
-                <div class="box5"><img src="image/Rectangle 4.png" alt="" class="white"></div>
-                <div class="box6"><img src="image/Rectangle 5.png" alt="" class="coral"></div>
-                <div class="box7"><img src="image/Rectangle 6.png" alt="" class="rose"></div>
-            </div>
-
-            <div class="rectangle">
-                <img src="image/Rectangle 9.png" alt="" class="square">
-                <h4 class="hotdeal"><b>Get The Latest Deals</b></h4>
-                <input type="text" placeholder="       Enter your email here...." class="type">
-                <p id="para12">$ 30 coupon for first shopping</p>
-                <button class="btn3"><b>Subscribe</b></button>
-
-            </div>
-
-            <footer class="blackbox">
-                <h4 class="last"><span>Flower</span>Shop</h4>
-                <p id="para13">It is a long established fact that a reader will be distracted by the readable <br> content of a
-                    page when looking at its layout</p>
-                    <p id="para14">@2020-2023,FlowerShop.com.All rights reserved.</p>
-            </footer>
-    </div>
+        <p>@2020-2023, FlowerShop.com. All rights reserved. </p>
+    </footer>
 
 </body>
-
 </html>
